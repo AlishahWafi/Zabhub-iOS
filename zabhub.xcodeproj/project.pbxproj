@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		879CAF09A0D76ACC5011053B /* Pods_zabhub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F659C960263C736F6A749EB /* Pods_zabhub.framework */; };
+		A0EEAC0C1EE2F7D700386B51 /* checklist.png in Resources */ = {isa = PBXBuildFile; fileRef = A0EEAC0B1EE2F7D700386B51 /* checklist.png */; };
+		A0EEAC0E1EE2F81200386B51 /* approve-invoice.png in Resources */ = {isa = PBXBuildFile; fileRef = A0EEAC0D1EE2F81200386B51 /* approve-invoice.png */; };
+		BC4A20F21EC73C8600BC8422 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4A20F11EC73C8600BC8422 /* LoginViewController.swift */; };
+		BC4A20F41EC73E5600BC8422 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4A20F31EC73E5600BC8422 /* Request.swift */; };
+		BC6B3D1D1EC9F16000C623E4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3D1C1EC9F16000C623E4 /* ProfileViewController.swift */; };
+		BC6B3D1F1EC9F9F600C623E4 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3D1E1EC9F9F600C623E4 /* Strings.swift */; };
+		BC6B3D211ECA0FE900C623E4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B3D201ECA0FE900C623E4 /* SettingsViewController.swift */; };
+		BC6B3D391ECA1C6E00C623E4 /* books-stack-of-three.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B3D341ECA1C6D00C623E4 /* books-stack-of-three.png */; };
+		BC6B3D3A1ECA1C6E00C623E4 /* information-button.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B3D351ECA1C6D00C623E4 /* information-button.png */; };
+		BC6B3D3B1ECA1C6E00C623E4 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B3D361ECA1C6D00C623E4 /* user.png */; };
+		BC6B3D3C1ECA1C6E00C623E4 /* synchronization-arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B3D371ECA1C6D00C623E4 /* synchronization-arrows.png */; };
+		BC6B3D3D1ECA1C6E00C623E4 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B3D381ECA1C6D00C623E4 /* logout.png */; };
+		BC6B3D3F1ECA1D2F00C623E4 /* repairing-service.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6B3D3E1ECA1D2F00C623E4 /* repairing-service.png */; };
+		BC7DF22B1EE1D505008378ED /* MarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DF22A1EE1D505008378ED /* MarksViewController.swift */; };
+		BC8B07081EC89E4C0064918B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B07071EC89E4C0064918B /* BaseViewController.swift */; };
+		BC8B070E1EC8A6D40064918B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BC8B070D1EC8A6D30064918B /* .gitignore */; };
+		BC8B07131EC8A9B20064918B /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B07121EC8A9B20064918B /* OverviewController.swift */; };
+		BC8B07151EC8ACDD0064918B /* OverviewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B07141EC8ACDD0064918B /* OverviewTableCell.swift */; };
+		BC8B071B1EC8DE920064918B /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B071A1EC8DE920064918B /* Navigation.swift */; };
+		BC8B93CA1EC0ABDC00C074B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B93C91EC0ABDC00C074B7 /* AppDelegate.swift */; };
+		BC8B93CF1EC0ABDC00C074B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8B93CD1EC0ABDC00C074B7 /* Main.storyboard */; };
+		BC8B93D21EC0ABDC00C074B7 /* zabhub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC8B93D01EC0ABDC00C074B7 /* zabhub.xcdatamodeld */; };
+		BC8B93D41EC0ABDC00C074B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8B93D31EC0ABDC00C074B7 /* Assets.xcassets */; };
+		BC8B93D71EC0ABDC00C074B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8B93D51EC0ABDC00C074B7 /* LaunchScreen.storyboard */; };
+		BC8B93E21EC0ABDC00C074B7 /* zabhubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B93E11EC0ABDC00C074B7 /* zabhubTests.swift */; };
+		BC8B93ED1EC0ABDC00C074B7 /* zabhubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8B93EC1EC0ABDC00C074B7 /* zabhubUITests.swift */; };
+		BC8C82871EC0D97C001B7201 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BC8C82861EC0D97C001B7201 /* Podfile */; };
+		BCA4D1981EC7587400251F2D /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4D1971EC7587400251F2D /* Database.swift */; };
+		BCA4D19A1EC75A1700251F2D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4D1991EC75A1700251F2D /* Constants.swift */; };
+		BCEED2D81EE2A42B004CD052 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEED2D71EE2A42B004CD052 /* BaseTableViewController.swift */; };
+		BCEED2DA1EE2AACF004CD052 /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEED2D91EE2AACF004CD052 /* AttendanceViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC8B93DE1EC0ABDC00C074B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC8B93BE1EC0ABDC00C074B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC8B93C51EC0ABDC00C074B7;
+			remoteInfo = zabhub;
+		};
+		BC8B93E91EC0ABDC00C074B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC8B93BE1EC0ABDC00C074B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC8B93C51EC0ABDC00C074B7;
+			remoteInfo = zabhub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F659C960263C736F6A749EB /* Pods_zabhub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zabhub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0EEAC0B1EE2F7D700386B51 /* checklist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checklist.png; sourceTree = "<group>"; };
+		A0EEAC0D1EE2F81200386B51 /* approve-invoice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "approve-invoice.png"; sourceTree = "<group>"; };
+		B0332D7C3CC4029FF0B86ACA /* Pods-zabhub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zabhub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zabhub/Pods-zabhub.debug.xcconfig"; sourceTree = "<group>"; };
+		BC4A20F11EC73C8600BC8422 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BC4A20F31EC73E5600BC8422 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		BC6B3D1C1EC9F16000C623E4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BC6B3D1E1EC9F9F600C623E4 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		BC6B3D201ECA0FE900C623E4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BC6B3D341ECA1C6D00C623E4 /* books-stack-of-three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "books-stack-of-three.png"; sourceTree = "<group>"; };
+		BC6B3D351ECA1C6D00C623E4 /* information-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "information-button.png"; sourceTree = "<group>"; };
+		BC6B3D361ECA1C6D00C623E4 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		BC6B3D371ECA1C6D00C623E4 /* synchronization-arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "synchronization-arrows.png"; sourceTree = "<group>"; };
+		BC6B3D381ECA1C6D00C623E4 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		BC6B3D3E1ECA1D2F00C623E4 /* repairing-service.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "repairing-service.png"; sourceTree = "<group>"; };
+		BC7DF22A1EE1D505008378ED /* MarksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarksViewController.swift; sourceTree = "<group>"; };
+		BC8B07071EC89E4C0064918B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BC8B07091EC8A4180064918B /* zabhub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zabhub.entitlements; sourceTree = "<group>"; };
+		BC8B070D1EC8A6D30064918B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BC8B07121EC8A9B20064918B /* OverviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewController.swift; sourceTree = "<group>"; };
+		BC8B07141EC8ACDD0064918B /* OverviewTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewTableCell.swift; sourceTree = "<group>"; };
+		BC8B071A1EC8DE920064918B /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		BC8B93C61EC0ABDC00C074B7 /* zabhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zabhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8B93C91EC0ABDC00C074B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC8B93CE1EC0ABDC00C074B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC8B93D11EC0ABDC00C074B7 /* zabhub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zabhub.xcdatamodel; sourceTree = "<group>"; };
+		BC8B93D31EC0ABDC00C074B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC8B93D61EC0ABDC00C074B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC8B93D81EC0ABDC00C074B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8B93DD1EC0ABDC00C074B7 /* zabhubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zabhubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8B93E11EC0ABDC00C074B7 /* zabhubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zabhubTests.swift; sourceTree = "<group>"; };
+		BC8B93E31EC0ABDC00C074B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8B93E81EC0ABDC00C074B7 /* zabhubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zabhubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8B93EC1EC0ABDC00C074B7 /* zabhubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zabhubUITests.swift; sourceTree = "<group>"; };
+		BC8B93EE1EC0ABDC00C074B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8C82861EC0D97C001B7201 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCA4D1971EC7587400251F2D /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		BCA4D1991EC75A1700251F2D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BCEED2D71EE2A42B004CD052 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		BCEED2D91EE2AACF004CD052 /* AttendanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceViewController.swift; sourceTree = "<group>"; };
+		D4723E50C6DCED4140B57852 /* Pods-zabhub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zabhub.release.xcconfig"; path = "Pods/Target Support Files/Pods-zabhub/Pods-zabhub.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC8B93C31EC0ABDC00C074B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879CAF09A0D76ACC5011053B /* Pods_zabhub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8B93DA1EC0ABDC00C074B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8B93E51EC0ABDC00C074B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DA07F8983C00EFD1E0E0502 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0332D7C3CC4029FF0B86ACA /* Pods-zabhub.debug.xcconfig */,
+				D4723E50C6DCED4140B57852 /* Pods-zabhub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE69EBC2AF40A4EA537225CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F659C960263C736F6A749EB /* Pods_zabhub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC6B3D1B1EC9F14600C623E4 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B3D1C1EC9F16000C623E4 /* ProfileViewController.swift */,
+			);
+			name = profile;
+			sourceTree = "<group>";
+		};
+		BC6B3D221ECA0FED00C623E4 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B3D201ECA0FE900C623E4 /* SettingsViewController.swift */,
+			);
+			name = settings;
+			sourceTree = "<group>";
+		};
+		BC6B3D231ECA1B7F00C623E4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A0EEAC0B1EE2F7D700386B51 /* checklist.png */,
+				A0EEAC0D1EE2F81200386B51 /* approve-invoice.png */,
+				BC6B3D341ECA1C6D00C623E4 /* books-stack-of-three.png */,
+				BC6B3D3E1ECA1D2F00C623E4 /* repairing-service.png */,
+				BC6B3D351ECA1C6D00C623E4 /* information-button.png */,
+				BC6B3D361ECA1C6D00C623E4 /* user.png */,
+				BC6B3D371ECA1C6D00C623E4 /* synchronization-arrows.png */,
+				BC6B3D381ECA1C6D00C623E4 /* logout.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		BC7DF2281EE1C862008378ED /* marks */ = {
+			isa = PBXGroup;
+			children = (
+				BC7DF22A1EE1D505008378ED /* MarksViewController.swift */,
+			);
+			name = marks;
+			sourceTree = "<group>";
+		};
+		BC7DF2291EE1CB3F008378ED /* attendance */ = {
+			isa = PBXGroup;
+			children = (
+				BCEED2D91EE2AACF004CD052 /* AttendanceViewController.swift */,
+			);
+			name = attendance;
+			sourceTree = "<group>";
+		};
+		BC8B07041EC8945F0064918B /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				BCA4D1991EC75A1700251F2D /* Constants.swift */,
+				BC4A20F31EC73E5600BC8422 /* Request.swift */,
+				BCA4D1971EC7587400251F2D /* Database.swift */,
+				BC8B071A1EC8DE920064918B /* Navigation.swift */,
+				BC6B3D1E1EC9F9F600C623E4 /* Strings.swift */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		BC8B07051EC894740064918B /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC7DF2291EE1CB3F008378ED /* attendance */,
+				BC7DF2281EE1C862008378ED /* marks */,
+				BC6B3D221ECA0FED00C623E4 /* settings */,
+				BC6B3D1B1EC9F14600C623E4 /* profile */,
+				BC8B07111EC8A9100064918B /* overview */,
+				BC8B07061EC894CE0064918B /* login */,
+				BC8B07071EC89E4C0064918B /* BaseViewController.swift */,
+				BCEED2D71EE2A42B004CD052 /* BaseTableViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		BC8B07061EC894CE0064918B /* login */ = {
+			isa = PBXGroup;
+			children = (
+				BC4A20F11EC73C8600BC8422 /* LoginViewController.swift */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		BC8B07111EC8A9100064918B /* overview */ = {
+			isa = PBXGroup;
+			children = (
+				BC8B07121EC8A9B20064918B /* OverviewController.swift */,
+				BC8B07141EC8ACDD0064918B /* OverviewTableCell.swift */,
+			);
+			name = overview;
+			sourceTree = "<group>";
+		};
+		BC8B93BD1EC0ABDC00C074B7 = {
+			isa = PBXGroup;
+			children = (
+				BC8B070D1EC8A6D30064918B /* .gitignore */,
+				BC8C82861EC0D97C001B7201 /* Podfile */,
+				BC8B93C81EC0ABDC00C074B7 /* zabhub */,
+				BC8B93E01EC0ABDC00C074B7 /* zabhubTests */,
+				BC8B93EB1EC0ABDC00C074B7 /* zabhubUITests */,
+				BC8B93C71EC0ABDC00C074B7 /* Products */,
+				7DA07F8983C00EFD1E0E0502 /* Pods */,
+				AE69EBC2AF40A4EA537225CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC8B93C71EC0ABDC00C074B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC8B93C61EC0ABDC00C074B7 /* zabhub.app */,
+				BC8B93DD1EC0ABDC00C074B7 /* zabhubTests.xctest */,
+				BC8B93E81EC0ABDC00C074B7 /* zabhubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC8B93C81EC0ABDC00C074B7 /* zabhub */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B3D231ECA1B7F00C623E4 /* images */,
+				BC8B07091EC8A4180064918B /* zabhub.entitlements */,
+				BC8B07051EC894740064918B /* controllers */,
+				BC8B07041EC8945F0064918B /* utils */,
+				BC8B93C91EC0ABDC00C074B7 /* AppDelegate.swift */,
+				BC8B93CD1EC0ABDC00C074B7 /* Main.storyboard */,
+				BC8B93D31EC0ABDC00C074B7 /* Assets.xcassets */,
+				BC8B93D51EC0ABDC00C074B7 /* LaunchScreen.storyboard */,
+				BC8B93D81EC0ABDC00C074B7 /* Info.plist */,
+				BC8B93D01EC0ABDC00C074B7 /* zabhub.xcdatamodeld */,
+			);
+			path = zabhub;
+			sourceTree = "<group>";
+		};
+		BC8B93E01EC0ABDC00C074B7 /* zabhubTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC8B93E11EC0ABDC00C074B7 /* zabhubTests.swift */,
+				BC8B93E31EC0ABDC00C074B7 /* Info.plist */,
+			);
+			path = zabhubTests;
+			sourceTree = "<group>";
+		};
+		BC8B93EB1EC0ABDC00C074B7 /* zabhubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC8B93EC1EC0ABDC00C074B7 /* zabhubUITests.swift */,
+				BC8B93EE1EC0ABDC00C074B7 /* Info.plist */,
+			);
+			path = zabhubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC8B93C51EC0ABDC00C074B7 /* zabhub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8B93F11EC0ABDC00C074B7 /* Build configuration list for PBXNativeTarget "zabhub" */;
+			buildPhases = (
+				8DD941D5A8406F8CF7A47548 /* [CP] Check Pods Manifest.lock */,
+				BC8B93C21EC0ABDC00C074B7 /* Sources */,
+				BC8B93C31EC0ABDC00C074B7 /* Frameworks */,
+				BC8B93C41EC0ABDC00C074B7 /* Resources */,
+				AD3C04FEE54E9C8C46C9CD49 /* [CP] Embed Pods Frameworks */,
+				598E22301FCFEDEE63CBF45E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zabhub;
+			productName = zabhub;
+			productReference = BC8B93C61EC0ABDC00C074B7 /* zabhub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC8B93DC1EC0ABDC00C074B7 /* zabhubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8B93F41EC0ABDC00C074B7 /* Build configuration list for PBXNativeTarget "zabhubTests" */;
+			buildPhases = (
+				BC8B93D91EC0ABDC00C074B7 /* Sources */,
+				BC8B93DA1EC0ABDC00C074B7 /* Frameworks */,
+				BC8B93DB1EC0ABDC00C074B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC8B93DF1EC0ABDC00C074B7 /* PBXTargetDependency */,
+			);
+			name = zabhubTests;
+			productName = zabhubTests;
+			productReference = BC8B93DD1EC0ABDC00C074B7 /* zabhubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC8B93E71EC0ABDC00C074B7 /* zabhubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8B93F71EC0ABDC00C074B7 /* Build configuration list for PBXNativeTarget "zabhubUITests" */;
+			buildPhases = (
+				BC8B93E41EC0ABDC00C074B7 /* Sources */,
+				BC8B93E51EC0ABDC00C074B7 /* Frameworks */,
+				BC8B93E61EC0ABDC00C074B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC8B93EA1EC0ABDC00C074B7 /* PBXTargetDependency */,
+			);
+			name = zabhubUITests;
+			productName = zabhubUITests;
+			productReference = BC8B93E81EC0ABDC00C074B7 /* zabhubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC8B93BE1EC0ABDC00C074B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Talha Ashraf";
+				TargetAttributes = {
+					BC8B93C51EC0ABDC00C074B7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5AKXV55FY9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					BC8B93DC1EC0ABDC00C074B7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC8B93C51EC0ABDC00C074B7;
+					};
+					BC8B93E71EC0ABDC00C074B7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC8B93C51EC0ABDC00C074B7;
+					};
+				};
+			};
+			buildConfigurationList = BC8B93C11EC0ABDC00C074B7 /* Build configuration list for PBXProject "zabhub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC8B93BD1EC0ABDC00C074B7;
+			productRefGroup = BC8B93C71EC0ABDC00C074B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC8B93C51EC0ABDC00C074B7 /* zabhub */,
+				BC8B93DC1EC0ABDC00C074B7 /* zabhubTests */,
+				BC8B93E71EC0ABDC00C074B7 /* zabhubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC8B93C41EC0ABDC00C074B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6B3D3A1ECA1C6E00C623E4 /* information-button.png in Resources */,
+				A0EEAC0E1EE2F81200386B51 /* approve-invoice.png in Resources */,
+				BC8C82871EC0D97C001B7201 /* Podfile in Resources */,
+				A0EEAC0C1EE2F7D700386B51 /* checklist.png in Resources */,
+				BC8B070E1EC8A6D40064918B /* .gitignore in Resources */,
+				BC8B93D71EC0ABDC00C074B7 /* LaunchScreen.storyboard in Resources */,
+				BC6B3D3C1ECA1C6E00C623E4 /* synchronization-arrows.png in Resources */,
+				BC8B93D41EC0ABDC00C074B7 /* Assets.xcassets in Resources */,
+				BC6B3D3B1ECA1C6E00C623E4 /* user.png in Resources */,
+				BC6B3D391ECA1C6E00C623E4 /* books-stack-of-three.png in Resources */,
+				BC6B3D3F1ECA1D2F00C623E4 /* repairing-service.png in Resources */,
+				BC8B93CF1EC0ABDC00C074B7 /* Main.storyboard in Resources */,
+				BC6B3D3D1ECA1C6E00C623E4 /* logout.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8B93DB1EC0ABDC00C074B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8B93E61EC0ABDC00C074B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		598E22301FCFEDEE63CBF45E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zabhub/Pods-zabhub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DD941D5A8406F8CF7A47548 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD3C04FEE54E9C8C46C9CD49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zabhub/Pods-zabhub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC8B93C21EC0ABDC00C074B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4A20F21EC73C8600BC8422 /* LoginViewController.swift in Sources */,
+				BC7DF22B1EE1D505008378ED /* MarksViewController.swift in Sources */,
+				BC4A20F41EC73E5600BC8422 /* Request.swift in Sources */,
+				BCEED2D81EE2A42B004CD052 /* BaseTableViewController.swift in Sources */,
+				BC8B071B1EC8DE920064918B /* Navigation.swift in Sources */,
+				BC8B93D21EC0ABDC00C074B7 /* zabhub.xcdatamodeld in Sources */,
+				BC6B3D1F1EC9F9F600C623E4 /* Strings.swift in Sources */,
+				BC8B07151EC8ACDD0064918B /* OverviewTableCell.swift in Sources */,
+				BC6B3D211ECA0FE900C623E4 /* SettingsViewController.swift in Sources */,
+				BCEED2DA1EE2AACF004CD052 /* AttendanceViewController.swift in Sources */,
+				BCA4D1981EC7587400251F2D /* Database.swift in Sources */,
+				BC8B93CA1EC0ABDC00C074B7 /* AppDelegate.swift in Sources */,
+				BC8B07081EC89E4C0064918B /* BaseViewController.swift in Sources */,
+				BC6B3D1D1EC9F16000C623E4 /* ProfileViewController.swift in Sources */,
+				BC8B07131EC8A9B20064918B /* OverviewController.swift in Sources */,
+				BCA4D19A1EC75A1700251F2D /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8B93D91EC0ABDC00C074B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8B93E21EC0ABDC00C074B7 /* zabhubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8B93E41EC0ABDC00C074B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8B93ED1EC0ABDC00C074B7 /* zabhubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC8B93DF1EC0ABDC00C074B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC8B93C51EC0ABDC00C074B7 /* zabhub */;
+			targetProxy = BC8B93DE1EC0ABDC00C074B7 /* PBXContainerItemProxy */;
+		};
+		BC8B93EA1EC0ABDC00C074B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC8B93C51EC0ABDC00C074B7 /* zabhub */;
+			targetProxy = BC8B93E91EC0ABDC00C074B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC8B93CD1EC0ABDC00C074B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8B93CE1EC0ABDC00C074B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC8B93D51EC0ABDC00C074B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8B93D61EC0ABDC00C074B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC8B93EF1EC0ABDC00C074B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC8B93F01EC0ABDC00C074B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC8B93F21EC0ABDC00C074B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0332D7C3CC4029FF0B86ACA /* Pods-zabhub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zabhub/zabhub.entitlements;
+				DEVELOPMENT_TEAM = 5AKXV55FY9;
+				INFOPLIST_FILE = zabhub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szabist.zabhub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC8B93F31EC0ABDC00C074B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4723E50C6DCED4140B57852 /* Pods-zabhub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zabhub/zabhub.entitlements;
+				DEVELOPMENT_TEAM = 5AKXV55FY9;
+				INFOPLIST_FILE = zabhub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szabist.zabhub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BC8B93F51EC0ABDC00C074B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zabhubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szabist.zabhubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zabhub.app/zabhub";
+			};
+			name = Debug;
+		};
+		BC8B93F61EC0ABDC00C074B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zabhubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szabist.zabhubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zabhub.app/zabhub";
+			};
+			name = Release;
+		};
+		BC8B93F81EC0ABDC00C074B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = zabhubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szabist.zabhubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = zabhub;
+			};
+			name = Debug;
+		};
+		BC8B93F91EC0ABDC00C074B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = zabhubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szabist.zabhubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = zabhub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC8B93C11EC0ABDC00C074B7 /* Build configuration list for PBXProject "zabhub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8B93EF1EC0ABDC00C074B7 /* Debug */,
+				BC8B93F01EC0ABDC00C074B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8B93F11EC0ABDC00C074B7 /* Build configuration list for PBXNativeTarget "zabhub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8B93F21EC0ABDC00C074B7 /* Debug */,
+				BC8B93F31EC0ABDC00C074B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8B93F41EC0ABDC00C074B7 /* Build configuration list for PBXNativeTarget "zabhubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8B93F51EC0ABDC00C074B7 /* Debug */,
+				BC8B93F61EC0ABDC00C074B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8B93F71EC0ABDC00C074B7 /* Build configuration list for PBXNativeTarget "zabhubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8B93F81EC0ABDC00C074B7 /* Debug */,
+				BC8B93F91EC0ABDC00C074B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BC8B93D01EC0ABDC00C074B7 /* zabhub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BC8B93D11EC0ABDC00C074B7 /* zabhub.xcdatamodel */,
+			);
+			currentVersion = BC8B93D11EC0ABDC00C074B7 /* zabhub.xcdatamodel */;
+			path = zabhub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BC8B93BE1EC0ABDC00C074B7 /* Project object */;
+}

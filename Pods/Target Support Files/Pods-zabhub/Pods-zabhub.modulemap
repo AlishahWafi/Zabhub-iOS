@@ -1,0 +1,6 @@
+framework module Pods_zabhub {
+  umbrella header "Pods-zabhub-umbrella.h"
+
+  export *
+  module * { export * }
+}
